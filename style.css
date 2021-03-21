@@ -3,10 +3,10 @@ h1{
     text-align: center;padding: 10px;
 }
 content{
-    width: 1000px;margin-left: auto;margin-right: auto;
+    width: 1000px;margin-left: auto;margin-right: auto;margin-top:auto;
 }
 box{
-    width: 280px;padding: 10px;margin: 10px;background-color: white;
+    width: 280px;padding: 10px;margin: 10px;background-color: rgba(218, 180, 149, 0.863);
     display: inline-block;vertical-align: top;
     text-align: center;height: 150px;line-height: 30px;
 }

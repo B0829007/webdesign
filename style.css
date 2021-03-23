@@ -1,14 +1,46 @@
+html{
+    height: 100%;
+}
+body{
+    background-image: url(background.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.picture{
+    width: 95%;
+}
 h1{
     color:cadetblue;font-weight: bold;font-size:  60px;font-family:fantasy;
     text-align: center;padding: 10px;
+}
+h2{
+    color: rgba(150, 11, 230, 0.973);font-weight: bold;text-align: left;
+    font-family: fantasy;
+}
+h3{
+    color: rgba(150, 11, 230, 0.973);text-align: left;
+    font-family: DFKai-sb;
+}
+span{
+    color: rgba(0, 0, 0, 0.973);font-weight: bold;text-align: left;
+    font-family: DFKai-sb;
+}
+li{
+    text-align: left;font-size:larger;font-weight: bold;font-family: DFKai-sb;
 }
 content{
     width: 1000px;margin-left: auto;margin-right: auto;margin-top:auto;
 }
 box{
-    width: 280px;padding: 10px;margin: 10px;background-color: rgba(218, 180, 149, 0.863);
+    width: 280px;padding: 10px;margin: 10px; background-color: rgba(218, 180, 149, 0.863);
     display: inline-block;vertical-align: top;
-    text-align: center;height: 150px;line-height: 30px;
+    text-align: center;height: auto;line-height: 20px;
+}
+box_out{
+    width: 320px;padding: 10px;margin: 10px;height:auto ;background-color: blanchedalmond;
+    border-radius: 25px;display: inline-block;vertical-align: top;
 }
 title{
     font-weight: bold;

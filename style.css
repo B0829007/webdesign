@@ -57,7 +57,7 @@ box_out{
 title{
     font-weight: bold;
 }
-@media screen and (max-width:320px){
+@media screen and (max-width:425px){
     .title_word{position: absolute;z-index: 2;left: 80px;top: 120px;}
     content{width: 100%;text-align: center;}
 }

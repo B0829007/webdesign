@@ -57,8 +57,12 @@ box_out{
 title{
     font-weight: bold;
 }
+@media screen and (max-width:320px){
+    .title_word{position: absolute;z-index: 2;left: 80px;top: 120px;}
+    content{width: 100%;text-align: center;}
+}
 @media screen and (max-width:600px){
-    .title_word{position: absolute;z-index: 2;left: 200px;top: 120px;}
+    .title_word{position: absolute;z-index: 2;left: 100px;top: 120px;}
     content{width: 100%;text-align: center;}
 }
 @media screen and (max-width:850px){
